@@ -105,6 +105,7 @@
 				500389EB212F6B9E006D6EE5 /* Cells */,
 				500389EA212F6A3A006D6EE5 /* Views */,
 				500389E6212F69E5006D6EE5 /* ViewControllers */,
+				5037B5F2212FF6F400F6A3BC /* Coordinators */,
 				500389E9212F6A0B006D6EE5 /* Network */,
 				500389C2212F6912006D6EE5 /* AppDelegate.swift */,
 				500389CB212F6915006D6EE5 /* Assets.xcassets */,
@@ -174,6 +175,13 @@
 				500389C8212F6912006D6EE5 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5037B5F2212FF6F400F6A3BC /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		6033882CF604DEB1E3F743D0 /* Pods */ = {
