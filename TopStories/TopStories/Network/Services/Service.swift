@@ -10,7 +10,7 @@ import Foundation
 public protocol Service {
     var baseUrl: String {get}
     
-    init(with url: String)
+    init(withUrl url: String)
     
     typealias completionHandler = (Response) -> ()
     

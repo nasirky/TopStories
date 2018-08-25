@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct APIService: Service {
+class APIService: Service {
     var baseUrl: String
     var defaultSession: URLSession
     
-    init(with url: String) {
+    required init(withUrl url: String) {
         baseUrl = url
         defaultSession = URLSession(configuration: .default)
     }

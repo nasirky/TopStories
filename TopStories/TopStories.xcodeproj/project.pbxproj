@@ -13,7 +13,6 @@
 		500389CA212F6912006D6EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500389C8212F6912006D6EE5 /* Main.storyboard */; };
 		500389CC212F6915006D6EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500389CB212F6915006D6EE5 /* Assets.xcassets */; };
 		500389CF212F6915006D6EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500389CD212F6915006D6EE5 /* LaunchScreen.storyboard */; };
-		500389DA212F6915006D6EE5 /* TopStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389D9212F6915006D6EE5 /* TopStoriesTests.swift */; };
 		500389E5212F69E1006D6EE5 /* StoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389E4212F69E1006D6EE5 /* StoriesListViewController.swift */; };
 		5037B5F4212FF73400F6A3BC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B5F3212FF73400F6A3BC /* Coordinator.swift */; };
 		5037B5FE212FF7B800F6A3BC /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B5FD212FF7B800F6A3BC /* ApiConstants.swift */; };
@@ -41,6 +40,11 @@
 		5037B63B2130300300F6A3BC /* TopStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B63A2130300300F6A3BC /* TopStoryCell.swift */; };
 		5037B63E213032A900F6A3BC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B63D213032A900F6A3BC /* UIViewController.swift */; };
 		50F74AD7213180A200E97466 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F74AD6213180A200E97466 /* StoryDetailViewModel.swift */; };
+		50F74ADD2131BD6700E97466 /* ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F74ADC2131BD6700E97466 /* ServiceTests.swift */; };
+		50F74AE12131BE3100E97466 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F74AE02131BE3100E97466 /* MockAPIService.swift */; };
+		50F74AE42131C00D00E97466 /* top_stories.json in Resources */ = {isa = PBXBuildFile; fileRef = 50F74AE32131C00D00E97466 /* top_stories.json */; };
+		50F74AE72131C0B700E97466 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F74AE62131C0B700E97466 /* Helper.swift */; };
+		50F74AE92131C28500E97466 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F74AE82131C28500E97466 /* ViewModelTests.swift */; };
 		FA7558F9B8C9177650576DEA /* Pods_TopStoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95456F243C801A3CF93F4BE /* Pods_TopStoriesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +69,6 @@
 		500389CE212F6915006D6EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		500389D0212F6915006D6EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500389D5212F6915006D6EE5 /* TopStoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopStoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		500389D9212F6915006D6EE5 /* TopStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTests.swift; sourceTree = "<group>"; };
 		500389DB212F6915006D6EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500389E4212F69E1006D6EE5 /* StoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesListViewController.swift; sourceTree = "<group>"; };
 		5037B5F3212FF73400F6A3BC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -94,6 +97,11 @@
 		5037B63A2130300300F6A3BC /* TopStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoryCell.swift; sourceTree = "<group>"; };
 		5037B63D213032A900F6A3BC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		50F74AD6213180A200E97466 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
+		50F74ADC2131BD6700E97466 /* ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTests.swift; sourceTree = "<group>"; };
+		50F74AE02131BE3100E97466 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		50F74AE32131C00D00E97466 /* top_stories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_stories.json; sourceTree = "<group>"; };
+		50F74AE62131C0B700E97466 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		50F74AE82131C28500E97466 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		5C08082FEA798246E2415450 /* Pods-TopStoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStoriesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopStoriesTests/Pods-TopStoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		676F6EC71EE736455FBE1D95 /* Pods-TopStoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStoriesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopStoriesTests/Pods-TopStoriesTests.release.xcconfig"; sourceTree = "<group>"; };
 		941DA4B86B000BAA457E5CF1 /* Pods-TopStories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopStories/Pods-TopStories.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,7 +179,10 @@
 		500389D8212F6915006D6EE5 /* TopStoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				500389D9212F6915006D6EE5 /* TopStoriesTests.swift */,
+				50F74AE22131BFC300E97466 /* Mocked Responses */,
+				50F74ADC2131BD6700E97466 /* ServiceTests.swift */,
+				50F74AE82131C28500E97466 /* ViewModelTests.swift */,
+				50F74AE62131C0B700E97466 /* Helper.swift */,
 				500389DB212F6915006D6EE5 /* Info.plist */,
 			);
 			path = TopStoriesTests;
@@ -268,6 +279,7 @@
 			children = (
 				5037B603212FF92A00F6A3BC /* Service.swift */,
 				5037B6182130022600F6A3BC /* APIService.swift */,
+				50F74AE02131BE3100E97466 /* MockAPIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -324,6 +336,14 @@
 				5037B63D213032A900F6A3BC /* UIViewController.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50F74AE22131BFC300E97466 /* Mocked Responses */ = {
+			isa = PBXGroup;
+			children = (
+				50F74AE32131C00D00E97466 /* top_stories.json */,
+			);
+			path = "Mocked Responses";
 			sourceTree = "<group>";
 		};
 		6033882CF604DEB1E3F743D0 /* Pods */ = {
@@ -431,6 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F74AE42131C00D00E97466 /* top_stories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +530,7 @@
 				5037B6312130231D00F6A3BC /* AppCoordinator.swift in Sources */,
 				5037B62D21301AC100F6A3BC /* StoryItemViewModel.swift in Sources */,
 				5037B613212FFF0E00F6A3BC /* TopStoriesTask.swift in Sources */,
+				50F74AE12131BE3100E97466 /* MockAPIService.swift in Sources */,
 				500389C7212F6912006D6EE5 /* StoryDetailViewController.swift in Sources */,
 				5037B600212FF87900F6A3BC /* HTTPMethod.swift in Sources */,
 				5037B635213023B300F6A3BC /* StoriesListCoordinator.swift in Sources */,
@@ -534,7 +556,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500389DA212F6915006D6EE5 /* TopStoriesTests.swift in Sources */,
+				50F74ADD2131BD6700E97466 /* ServiceTests.swift in Sources */,
+				50F74AE72131C0B700E97466 /* Helper.swift in Sources */,
+				50F74AE92131C28500E97466 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

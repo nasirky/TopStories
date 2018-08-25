@@ -23,7 +23,7 @@ class AppCoordinator: Coordinator {
         self.window.rootViewController = navigationController
         
         //TODO: set delegate
-        let service = APIService.init(with: ApiConstants.NYTimesApi.Urls.Services)
+        let service = APIService.init(withUrl: ApiConstants.NYTimesApi.Urls.Services)
         let storyListCoordinator = StoriesListCoordinator(with: navigationController, service: service)
         
         self.childCoordinator = storyListCoordinator
