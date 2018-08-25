@@ -29,8 +29,9 @@ class StoryDetailViewController: UIViewController {
         lblAuthor.text = storyDetailViewModel.author
         lblDescription.text = storyDetailViewModel.description
 
-        ivImage.sd_setHighlightedImage(with: storyDetailViewModel.imageUrl, options: .progressiveDownload, completed: nil)
-        ivImage.sd_setImage(with: storyDetailViewModel.imageUrl, completed: nil)
+        ivImage.sd_setShowActivityIndicatorView(true)
+        ivImage.sd_setIndicatorStyle(.gray)
+        ivImage.sd_setImage(with: storyDetailViewModel.imageUrl, placeholderImage: nil, options: .progressiveDownload, completed: nil)
     }
 
     @IBAction func seeMore(_ sender: Any) {
