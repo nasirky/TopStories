@@ -161,9 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				5037B63C2130329D00F6A3BC /* Extensions */,
-				500389E7212F6A00006D6EE5 /* Models */,
 				500389E8212F6A04006D6EE5 /* ViewModels */,
-				500389EB212F6B9E006D6EE5 /* Cells */,
 				500389EA212F6A3A006D6EE5 /* Views */,
 				500389E6212F69E5006D6EE5 /* ViewControllers */,
 				5037B5F2212FF6F400F6A3BC /* Coordinators */,
@@ -197,13 +195,6 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		500389E7212F6A00006D6EE5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		500389E8212F6A04006D6EE5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +222,7 @@
 		500389EA212F6A3A006D6EE5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				500389EB212F6B9E006D6EE5 /* Cells */,
 				500389EC212F6C5D006D6EE5 /* Storyboards */,
 			);
 			path = Views;
