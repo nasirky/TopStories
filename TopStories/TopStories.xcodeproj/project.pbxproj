@@ -9,12 +9,38 @@
 /* Begin PBXBuildFile section */
 		0F3F454948553DF99463AE70 /* Pods_TopStories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8EE32224DDFE2348185B61 /* Pods_TopStories.framework */; };
 		500389C3212F6912006D6EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389C2212F6912006D6EE5 /* AppDelegate.swift */; };
-		500389C7212F6912006D6EE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389C6212F6912006D6EE5 /* DetailViewController.swift */; };
+		500389C7212F6912006D6EE5 /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389C6212F6912006D6EE5 /* StoryDetailViewController.swift */; };
 		500389CA212F6912006D6EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500389C8212F6912006D6EE5 /* Main.storyboard */; };
 		500389CC212F6915006D6EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500389CB212F6915006D6EE5 /* Assets.xcassets */; };
 		500389CF212F6915006D6EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500389CD212F6915006D6EE5 /* LaunchScreen.storyboard */; };
 		500389DA212F6915006D6EE5 /* TopStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389D9212F6915006D6EE5 /* TopStoriesTests.swift */; };
 		500389E5212F69E1006D6EE5 /* StoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500389E4212F69E1006D6EE5 /* StoriesListViewController.swift */; };
+		5037B5F4212FF73400F6A3BC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B5F3212FF73400F6A3BC /* Coordinator.swift */; };
+		5037B5FE212FF7B800F6A3BC /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B5FD212FF7B800F6A3BC /* ApiConstants.swift */; };
+		5037B600212FF87900F6A3BC /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B5FF212FF87900F6A3BC /* HTTPMethod.swift */; };
+		5037B602212FF8BC00F6A3BC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B601212FF8BC00F6A3BC /* Request.swift */; };
+		5037B604212FF92A00F6A3BC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B603212FF92A00F6A3BC /* Service.swift */; };
+		5037B606212FF97F00F6A3BC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B605212FF97F00F6A3BC /* Response.swift */; };
+		5037B60B212FFA1600F6A3BC /* ResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B60A212FFA1600F6A3BC /* ResponseParser.swift */; };
+		5037B60D212FFB9F00F6A3BC /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B60C212FFB9F00F6A3BC /* APIRequest.swift */; };
+		5037B60F212FFDB700F6A3BC /* JSONResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B60E212FFDB700F6A3BC /* JSONResponseParser.swift */; };
+		5037B611212FFEAB00F6A3BC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B610212FFEAB00F6A3BC /* Task.swift */; };
+		5037B613212FFF0E00F6A3BC /* TopStoriesTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B612212FFF0E00F6A3BC /* TopStoriesTask.swift */; };
+		5037B615212FFF3000F6A3BC /* StoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B614212FFF3000F6A3BC /* StoriesList.swift */; };
+		5037B6172130004F00F6A3BC /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B6162130004F00F6A3BC /* StoryItem.swift */; };
+		5037B6192130022600F6A3BC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B6182130022600F6A3BC /* APIService.swift */; };
+		5037B61B2130086900F6A3BC /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B61A2130086900F6A3BC /* Media.swift */; };
+		5037B61D21300B6400F6A3BC /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B61C21300B6400F6A3BC /* APIResponse.swift */; };
+		5037B62B21301A0B00F6A3BC /* StoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B62A21301A0B00F6A3BC /* StoryListViewModel.swift */; };
+		5037B62D21301AC100F6A3BC /* StoryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B62C21301AC100F6A3BC /* StoryItemViewModel.swift */; };
+		5037B62F21301E9400F6A3BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B62E21301E9400F6A3BC /* Constants.swift */; };
+		5037B6312130231D00F6A3BC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B6302130231D00F6A3BC /* AppCoordinator.swift */; };
+		5037B635213023B300F6A3BC /* StoriesListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B634213023B300F6A3BC /* StoriesListCoordinator.swift */; };
+		5037B637213027CC00F6A3BC /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B636213027CC00F6A3BC /* Protocols.swift */; };
+		5037B63921302B3E00F6A3BC /* StoryDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B63821302B3E00F6A3BC /* StoryDetailCoordinator.swift */; };
+		5037B63B2130300300F6A3BC /* TopStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B63A2130300300F6A3BC /* TopStoryCell.swift */; };
+		5037B63E213032A900F6A3BC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037B63D213032A900F6A3BC /* UIViewController.swift */; };
+		50F74AD7213180A200E97466 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F74AD6213180A200E97466 /* StoryDetailViewModel.swift */; };
 		FA7558F9B8C9177650576DEA /* Pods_TopStoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95456F243C801A3CF93F4BE /* Pods_TopStoriesTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +59,7 @@
 		46A896A02A8504A8FEE78D88 /* Pods-TopStories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStories.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopStories/Pods-TopStories.release.xcconfig"; sourceTree = "<group>"; };
 		500389BF212F6912006D6EE5 /* TopStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		500389C2212F6912006D6EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		500389C6212F6912006D6EE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		500389C6212F6912006D6EE5 /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
 		500389C9212F6912006D6EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		500389CB212F6915006D6EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500389CE212F6915006D6EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +68,32 @@
 		500389D9212F6915006D6EE5 /* TopStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTests.swift; sourceTree = "<group>"; };
 		500389DB212F6915006D6EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500389E4212F69E1006D6EE5 /* StoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesListViewController.swift; sourceTree = "<group>"; };
+		5037B5F3212FF73400F6A3BC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5037B5FD212FF7B800F6A3BC /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		5037B5FF212FF87900F6A3BC /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5037B601212FF8BC00F6A3BC /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5037B603212FF92A00F6A3BC /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		5037B605212FF97F00F6A3BC /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		5037B60A212FFA1600F6A3BC /* ResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParser.swift; sourceTree = "<group>"; };
+		5037B60C212FFB9F00F6A3BC /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		5037B60E212FFDB700F6A3BC /* JSONResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResponseParser.swift; sourceTree = "<group>"; };
+		5037B610212FFEAB00F6A3BC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5037B612212FFF0E00F6A3BC /* TopStoriesTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTask.swift; sourceTree = "<group>"; };
+		5037B614212FFF3000F6A3BC /* StoriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesList.swift; sourceTree = "<group>"; };
+		5037B6162130004F00F6A3BC /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		5037B6182130022600F6A3BC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5037B61A2130086900F6A3BC /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		5037B61C21300B6400F6A3BC /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		5037B62A21301A0B00F6A3BC /* StoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListViewModel.swift; sourceTree = "<group>"; };
+		5037B62C21301AC100F6A3BC /* StoryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItemViewModel.swift; sourceTree = "<group>"; };
+		5037B62E21301E9400F6A3BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5037B6302130231D00F6A3BC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5037B634213023B300F6A3BC /* StoriesListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesListCoordinator.swift; sourceTree = "<group>"; };
+		5037B636213027CC00F6A3BC /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		5037B63821302B3E00F6A3BC /* StoryDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailCoordinator.swift; sourceTree = "<group>"; };
+		5037B63A2130300300F6A3BC /* TopStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoryCell.swift; sourceTree = "<group>"; };
+		5037B63D213032A900F6A3BC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		50F74AD6213180A200E97466 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 		5C08082FEA798246E2415450 /* Pods-TopStoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStoriesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopStoriesTests/Pods-TopStoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		676F6EC71EE736455FBE1D95 /* Pods-TopStoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStoriesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopStoriesTests/Pods-TopStoriesTests.release.xcconfig"; sourceTree = "<group>"; };
 		941DA4B86B000BAA457E5CF1 /* Pods-TopStories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopStories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopStories/Pods-TopStories.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +152,7 @@
 		500389C1212F6912006D6EE5 /* TopStories */ = {
 			isa = PBXGroup;
 			children = (
+				5037B63C2130329D00F6A3BC /* Extensions */,
 				500389E7212F6A00006D6EE5 /* Models */,
 				500389E8212F6A04006D6EE5 /* ViewModels */,
 				500389EB212F6B9E006D6EE5 /* Cells */,
@@ -110,6 +163,7 @@
 				500389C2212F6912006D6EE5 /* AppDelegate.swift */,
 				500389CB212F6915006D6EE5 /* Assets.xcassets */,
 				500389D0212F6915006D6EE5 /* Info.plist */,
+				5037B62E21301E9400F6A3BC /* Constants.swift */,
 			);
 			path = TopStories;
 			sourceTree = "<group>";
@@ -126,8 +180,8 @@
 		500389E6212F69E5006D6EE5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				500389C6212F6912006D6EE5 /* DetailViewController.swift */,
 				500389E4212F69E1006D6EE5 /* StoriesListViewController.swift */,
+				500389C6212F6912006D6EE5 /* StoryDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -142,6 +196,9 @@
 		500389E8212F6A04006D6EE5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5037B62A21301A0B00F6A3BC /* StoryListViewModel.swift */,
+				5037B62C21301AC100F6A3BC /* StoryItemViewModel.swift */,
+				50F74AD6213180A200E97466 /* StoryDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -149,6 +206,13 @@
 		500389E9212F6A0B006D6EE5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				5037B5FC212FF7A600F6A3BC /* Enums */,
+				5037B5FB212FF79E00F6A3BC /* Models */,
+				5037B5FA212FF79A00F6A3BC /* Requests */,
+				5037B5F9212FF79700F6A3BC /* Tasks */,
+				5037B5F8212FF79200F6A3BC /* Services */,
+				5037B5F7212FF78800F6A3BC /* Responses */,
+				5037B5FD212FF7B800F6A3BC /* ApiConstants.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -164,6 +228,7 @@
 		500389EB212F6B9E006D6EE5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				5037B63A2130300300F6A3BC /* TopStoryCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -180,8 +245,85 @@
 		5037B5F2212FF6F400F6A3BC /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				5037B5F3212FF73400F6A3BC /* Coordinator.swift */,
+				5037B636213027CC00F6A3BC /* Protocols.swift */,
+				5037B6302130231D00F6A3BC /* AppCoordinator.swift */,
+				5037B634213023B300F6A3BC /* StoriesListCoordinator.swift */,
+				5037B63821302B3E00F6A3BC /* StoryDetailCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		5037B5F7212FF78800F6A3BC /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				5037B609212FFA0D00F6A3BC /* Parsers */,
+				5037B605212FF97F00F6A3BC /* Response.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		5037B5F8212FF79200F6A3BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5037B603212FF92A00F6A3BC /* Service.swift */,
+				5037B6182130022600F6A3BC /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5037B5F9212FF79700F6A3BC /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				5037B610212FFEAB00F6A3BC /* Task.swift */,
+				5037B612212FFF0E00F6A3BC /* TopStoriesTask.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		5037B5FA212FF79A00F6A3BC /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				5037B601212FF8BC00F6A3BC /* Request.swift */,
+				5037B60C212FFB9F00F6A3BC /* APIRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		5037B5FB212FF79E00F6A3BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5037B614212FFF3000F6A3BC /* StoriesList.swift */,
+				5037B6162130004F00F6A3BC /* StoryItem.swift */,
+				5037B61A2130086900F6A3BC /* Media.swift */,
+				5037B61C21300B6400F6A3BC /* APIResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5037B5FC212FF7A600F6A3BC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5037B5FF212FF87900F6A3BC /* HTTPMethod.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5037B609212FFA0D00F6A3BC /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				5037B60A212FFA1600F6A3BC /* ResponseParser.swift */,
+				5037B60E212FFDB700F6A3BC /* JSONResponseParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		5037B63C2130329D00F6A3BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5037B63D213032A900F6A3BC /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6033882CF604DEB1E3F743D0 /* Pods */ = {
@@ -356,9 +498,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				500389C7212F6912006D6EE5 /* DetailViewController.swift in Sources */,
+				5037B61B2130086900F6A3BC /* Media.swift in Sources */,
+				5037B62F21301E9400F6A3BC /* Constants.swift in Sources */,
+				5037B6172130004F00F6A3BC /* StoryItem.swift in Sources */,
+				5037B5F4212FF73400F6A3BC /* Coordinator.swift in Sources */,
+				50F74AD7213180A200E97466 /* StoryDetailViewModel.swift in Sources */,
+				5037B615212FFF3000F6A3BC /* StoriesList.swift in Sources */,
+				5037B637213027CC00F6A3BC /* Protocols.swift in Sources */,
+				5037B604212FF92A00F6A3BC /* Service.swift in Sources */,
+				5037B6312130231D00F6A3BC /* AppCoordinator.swift in Sources */,
+				5037B62D21301AC100F6A3BC /* StoryItemViewModel.swift in Sources */,
+				5037B613212FFF0E00F6A3BC /* TopStoriesTask.swift in Sources */,
+				500389C7212F6912006D6EE5 /* StoryDetailViewController.swift in Sources */,
+				5037B600212FF87900F6A3BC /* HTTPMethod.swift in Sources */,
+				5037B635213023B300F6A3BC /* StoriesListCoordinator.swift in Sources */,
+				5037B606212FF97F00F6A3BC /* Response.swift in Sources */,
+				5037B63E213032A900F6A3BC /* UIViewController.swift in Sources */,
 				500389C3212F6912006D6EE5 /* AppDelegate.swift in Sources */,
+				5037B60F212FFDB700F6A3BC /* JSONResponseParser.swift in Sources */,
+				5037B60D212FFB9F00F6A3BC /* APIRequest.swift in Sources */,
+				5037B62B21301A0B00F6A3BC /* StoryListViewModel.swift in Sources */,
+				5037B61D21300B6400F6A3BC /* APIResponse.swift in Sources */,
+				5037B602212FF8BC00F6A3BC /* Request.swift in Sources */,
+				5037B63B2130300300F6A3BC /* TopStoryCell.swift in Sources */,
 				500389E5212F69E1006D6EE5 /* StoriesListViewController.swift in Sources */,
+				5037B60B212FFA1600F6A3BC /* ResponseParser.swift in Sources */,
+				5037B611212FFEAB00F6A3BC /* Task.swift in Sources */,
+				5037B6192130022600F6A3BC /* APIService.swift in Sources */,
+				5037B5FE212FF7B800F6A3BC /* ApiConstants.swift in Sources */,
+				5037B63921302B3E00F6A3BC /* StoryDetailCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
