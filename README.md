@@ -1,5 +1,5 @@
 # TopStories
-The purpose of this project is to access top stories for New York Times (API)[https://api.nytimes.com/svc/topstories/v2/home.json?api-key=]. 
+The purpose of this project is to access top stories for New York Times [API](https://api.nytimes.com/svc/topstories/v2/home.json?api-key=1). 
 
 
 ## Architectural Patterns:
@@ -14,7 +14,7 @@ Visual Representation can be found [here](https://goo.gl/A65BkT).
 - **Service** and **ServiceProtocol**: The layer/component making the network calls. It takes request object and returns a response object (enum). Error handling and *Data* to JSON conversion is performed inside *Response*. *Service Protocol* defines structure of the Service(s).
 - **Response**: Represents the response returned by the Service to the Task (Service is the entity executing the network calls and task represents one API call). It returns well defined output (error or Response Object) to the task.
 
-## Implementation Specific:
+### Implementation Specific:
 Visual Representation can be found [here](https://goo.gl/syzTaH).
 
 - **APIRequest**: Implements *Request* protocol for API specific requests such as fetch top stories etc. Here we define all the components for each of the api requests.
